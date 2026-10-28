@@ -1,16 +1,19 @@
 body {
-    background-color: #ECB95C;
-    font-family: "Trebuchet MS", Arial, Helevetica, sans-serif;
+    background-color: #F7F5F0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
 }
 
 #container {
-    width: 750px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 20px;
+    width: 850px;
+    margin: 40px auto;
+    padding: 30px;
     background-color: #FFFFFF;
-    border-right: solid 2px #C64D01;
-    border-left: solid 2px #C64D01;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
 }
 
 /*TEXT TAG STYLES*/
@@ -78,6 +81,16 @@ p {
 /*MAIN SECTION*/
 #main {
     margin-left: 190px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#main li {
+    color: #C64D01
 }
 
 #main h3 {
